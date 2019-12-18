@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58347" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:11:39Z">
+    <groups>
+    </groups>
+    <test name="Test 1001" duration-ms="57979" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:11:39Z">
+      <class name="com.regression.WebTableWithTestNG">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="beforesuit" is-config="true" duration-ms="476" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="befortest()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="befortest" is-config="true" duration-ms="20261" started-at="2018-07-31T04:10:42Z" depends-on-methods="com.extentreport.BaseTest.beforesuit" finished-at="2018-07-31T04:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befortest -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:02Z" finished-at="2018-07-31T04:11:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.getExcelData() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="getExcelData()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="getExcelData" duration-ms="2630" started-at="2018-07-31T04:11:02Z" finished-at="2018-07-31T04:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelData -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getExcelData status=SUCCESS method=WebTableWithTestNG.getExcelData()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.getWebTableData(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="getWebTableData(java.lang.String)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="getWebTableData" duration-ms="29667" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebTableData -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getWebTableData status=SUCCESS method=WebTableWithTestNG.getWebTableData(java.lang.String)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.validation() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="validation()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="validation" duration-ms="10" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validation status=SUCCESS method=WebTableWithTestNG.validation()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="teardown" is-config="true" duration-ms="4052" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="sfterSuite()[pri:0, instance:com.regression.WebTableWithTestNG@3439f68d]" name="sfterSuite" is-config="true" duration-ms="839" started-at="2018-07-31T04:11:38Z" depends-on-methods="com.regression.WebTableWithTestNG.teardown" finished-at="2018-07-31T04:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sfterSuite -->
+      </class> <!-- com.regression.WebTableWithTestNG -->
+    </test> <!-- Test 1001 -->
+    <test name="Test 1036" duration-ms="57945" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:11:39Z">
+      <class name="com.regression.WebTableWithTestNG">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="beforesuit" is-config="true" duration-ms="457" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="befortest()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="befortest" is-config="true" duration-ms="18818" started-at="2018-07-31T04:10:42Z" depends-on-methods="com.extentreport.BaseTest.beforesuit" finished-at="2018-07-31T04:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befortest -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="beforemethod" is-config="true" duration-ms="132" started-at="2018-07-31T04:11:01Z" finished-at="2018-07-31T04:11:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.getExcelData() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="getExcelData()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="getExcelData" duration-ms="3740" started-at="2018-07-31T04:11:01Z" finished-at="2018-07-31T04:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelData -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getExcelData status=SUCCESS method=WebTableWithTestNG.getExcelData()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.getWebTableData(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="getWebTableData(java.lang.String)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="getWebTableData" duration-ms="29384" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1036]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebTableData -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getWebTableData status=SUCCESS method=WebTableWithTestNG.getWebTableData(java.lang.String)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="validation()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="validation" duration-ms="3" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.validation() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validation status=SUCCESS method=WebTableWithTestNG.validation()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="teardown" is-config="true" duration-ms="4085" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="sfterSuite()[pri:0, instance:com.regression.WebTableWithTestNG@49c43f4e]" name="sfterSuite" is-config="true" duration-ms="1053" started-at="2018-07-31T04:11:38Z" depends-on-methods="com.regression.WebTableWithTestNG.teardown" finished-at="2018-07-31T04:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sfterSuite -->
+      </class> <!-- com.regression.WebTableWithTestNG -->
+    </test> <!-- Test 1036 -->
+    <test name="Test 1071" duration-ms="58346" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:11:39Z">
+      <class name="com.regression.WebTableWithTestNG">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="beforesuite" is-config="true" duration-ms="30" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:10:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="beforesuit" is-config="true" duration-ms="458" started-at="2018-07-31T04:10:41Z" finished-at="2018-07-31T04:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="befortest()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="befortest" is-config="true" duration-ms="20220" started-at="2018-07-31T04:10:42Z" depends-on-methods="com.extentreport.BaseTest.beforesuit" finished-at="2018-07-31T04:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befortest -->
+        <test-method status="PASS" signature="getExcelData()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="getExcelData" duration-ms="2687" started-at="2018-07-31T04:11:02Z" finished-at="2018-07-31T04:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelData -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-07-31T04:11:02Z" finished-at="2018-07-31T04:11:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.getExcelData() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="aftermethod" is-config="true" duration-ms="7" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getExcelData status=SUCCESS method=WebTableWithTestNG.getExcelData()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="beforemethod" is-config="true" duration-ms="0" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.getWebTableData(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="getWebTableData(java.lang.String)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="getWebTableData" duration-ms="29666" started-at="2018-07-31T04:11:04Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1071]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWebTableData -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getWebTableData status=SUCCESS method=WebTableWithTestNG.getWebTableData(java.lang.String)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="beforemethod" is-config="true" duration-ms="1" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.regression.WebTableWithTestNG.validation() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="validation()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="validation" duration-ms="5" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="aftermethod" is-config="true" duration-ms="2" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validation status=SUCCESS method=WebTableWithTestNG.validation()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="teardown" is-config="true" duration-ms="5083" started-at="2018-07-31T04:11:34Z" finished-at="2018-07-31T04:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="sfterSuite()[pri:0, instance:com.regression.WebTableWithTestNG@4e41089d]" name="sfterSuite" is-config="true" duration-ms="178" started-at="2018-07-31T04:11:39Z" depends-on-methods="com.regression.WebTableWithTestNG.teardown" finished-at="2018-07-31T04:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sfterSuite -->
+      </class> <!-- com.regression.WebTableWithTestNG -->
+    </test> <!-- Test 1071 -->
+  </suite> <!-- Suite -->
+</testng-results>

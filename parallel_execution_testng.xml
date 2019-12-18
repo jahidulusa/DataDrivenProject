@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="tests">
+  <test name="Test 1001">
+  <parameter name="Client_Id" value="1001"/>
+    <classes>
+      <class name="com.regression.WebTableWithTestNG"/>
+    </classes>
+  </test> 
+    <test name="Test 1036">
+  <parameter name="Client_Id" value="1036"/>
+    <classes>
+      <class name="com.regression.WebTableWithTestNG"/>
+    </classes>
+  </test> 
+     <test name="Test 1071">
+  <parameter name="Client_Id" value="1071"/>
+    <classes>
+      <class name="com.regression.WebTableWithTestNG"/>
+    </classes>
+  </test> 
+</suite> 
